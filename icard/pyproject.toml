@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "icard-django"
+version = "0.1.0"
+description = ""
+authors = ["NicoG2023 <nguevarah@udistrital.edu.co>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.1"
+psycopg2 = "^2.9.9"
+djangorestframework = "^3.15.2"
+drf-yasg = "^1.21.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
