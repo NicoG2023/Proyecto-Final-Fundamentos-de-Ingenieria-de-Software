@@ -1,0 +1,42 @@
+{
+    "python.languageServer": "Pylance",
+    "files.associations": {
+      "**/*.html": "html",
+      "**/templates/**/*.html": "django-html",
+      "**/templates/**/*": "django-txt",
+      "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+      "*.js": "javascript",
+      "*.jsx": "javascriptreact",
+      "*.ts": "typescript",
+      "*.tsx": "typescriptreact"
+    },
+    "emmet.includeLanguages": {
+      "django-html": "html",
+      "javascript": "javascriptreact",
+      "typescript": "typescriptreact"
+    },
+    "javascript.validate.enable": false,
+    "typescript.validate.enable": false,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "typescript",
+      "typescriptreact"
+    ],
+    "editor.codeActionsOnSave": {},
+    "python.autoComplete.extraPaths": [
+      "./backend" // ajusta este camino según la estructura de tu proyecto
+    ],
+    "python.analysis.extraPaths": [
+      "./backend" // ajusta este camino según la estructura de tu proyecto
+    ],
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Args": ["--max-line-length=88"],
+    "python.formatting.provider": "black",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.autopep8"
+    }
+  }
