@@ -7,7 +7,7 @@ export function Navigation() {
   return (
     <BrowserRouter>
       <Routes>
-        {Map(routes, (route, index) => (
+        {map(routes, (route, index) => (
           <Route
             key={index}
             path={route.path}
